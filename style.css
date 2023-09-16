@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: rgb(65, 205, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(65, 205, 233, 1) 41%,
+    rgba(37, 192, 190, 1) 56%
+  );
+}
+
+.container {
+  margin-left: 300px;
+  padding: 80px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  border-bottom: #000000;
+}
+
+label {
+  font-size: 20px;
+}
+
+input,
+option {
+  padding: 15px;
+  border: 1px solid gray;
+  margin-top: 30px;
+}
+
+.lable-input {
+  width: 300px;
+  margin-left: 60px;
+}
+
+.lable-inputt {
+  width: 300px;
+}
+
+.lable-email {
+  width: 605px;
+  margin-left: 105px;
+}
+
+.lable-phone {
+  width: 195px;
+  margin-left: 95px;
+}
+.lable-phonee {
+  width: 200px;
+}
+
+select {
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.massage-input {
+  margin-left: 73px;
+  width: 610px;
+  height: 150px;
+}
+
+.submit {
+  width: 250px;
+  background: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: #fff;
+}
